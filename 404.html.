@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أوبس! الصفحة غير موجودة 🔍</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: #1a1a2e;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .box {
+            background: #16213e;
+            padding: 40px 20px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            max-width: 90%;
+            width: 350px;
+        }
+        h1 { font-size: 4rem; margin: 0; color: #e94560; }
+        h2 { font-size: 1.5rem; margin-top: 10px; }
+        p { color: #8d99ae; font-size: 1rem; }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #0f3460;
+            color: #e94560;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #e94560;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>404</h1>
+        <h2>توهت ولا إيه؟ 🧐</h2>
+        <p>الصفحة اللي بتدور عليها مش موجودة هنا!</p>
+        <a href="index.html" class="btn">الرجوع للرئيسية 🏠</a>
+    </div>
+</body>
+</html>
